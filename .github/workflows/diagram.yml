@@ -12,15 +12,5 @@ jobs:
         uses: actions/checkout@master
       - name: Update diagram
         uses: githubocto/repo-visualizer@main
-      - name: Move the diagram
-        run: mv diagram.svg ./static/img
-      - name: Commit files
-        run: |
-          git config --local user.email "gabriel.farias@platformbuilders.io"
-          git config --local user.name "Gabao-farias-Builders"
-          git add .
-          git commit -m "[BOT] - Moving diagram to ./static/img..." -a
-      - name: Push changes
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          with:
+            output_file: "static/img/repo-diagram.svg"
