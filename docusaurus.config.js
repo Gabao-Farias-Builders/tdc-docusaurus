@@ -5,13 +5,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 module.exports = {
   title: 'TDC - Transformation',
   tagline: 'Presenting you the latest in docs!',
-  url: 'https://tdc-storybook.github.io',
+  url: 'https://tdc-docusaurus.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'Gabao-Farias-Builders', // Usually your GitHub org/user name.
-  projectName: 'tdc-storybook', // Usually your repo name.
+  projectName: 'tdc-docusaurus', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'TDC - Transformation',
@@ -28,7 +28,7 @@ module.exports = {
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/Gabao-Farias-Builders/tdc-storybook',
+          href: 'https://github.com/Gabao-Farias-Builders/tdc-docusaurus',
           label: 'GitHub',
           position: 'right',
         },
