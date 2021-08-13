@@ -13,7 +13,7 @@ jobs:
       - name: Update diagram
         uses: githubocto/repo-visualizer@main
       - name: Move the diagram
-        run: mv  mv diagram.svg ./static/img
+        run: mv diagram.svg ./static/img
       - name: Commit files
         run: |
           git config --local user.email "gabriel.farias@platformbuilders.io"
