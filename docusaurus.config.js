@@ -3,7 +3,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'TDC - Transformation',
+  title: 'TDC - Transformatio',
   tagline: 'Presenting you the latest in docs!',
   url: 'https://tdc-storybook.github.io',
   baseUrl: '/',
