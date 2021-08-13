@@ -12,10 +12,15 @@ jobs:
         uses: actions/checkout@master
       - name: Update diagram
         uses: githubocto/repo-visualizer@main
-      - name: Move diagram
-        run: mv diagram.svg ./static/img
-      - name: copy file
-        uses: canastro/copy-file-action@master
-          with:
-            source: "diagram.svg"
-            target: "./static/img"
+      - name: Move the diagram
+        run: mv  mv diagram.svg ./static/img
+          done
+      - name: Commit files
+        run: |
+          git config --local user.email "gabriel.farias@platformbuilders.io"
+          git config --local user.name "Gabao-farias-Builders"
+          git commit -m "[BOT] - Moving diagram to ./static/img..." -a
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
