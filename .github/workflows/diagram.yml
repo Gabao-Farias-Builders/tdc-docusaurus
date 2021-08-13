@@ -18,6 +18,7 @@ jobs:
         run: |
           git config --local user.email "gabriel.farias@platformbuilders.io"
           git config --local user.name "Gabao-farias-Builders"
+          git add .
           git commit -m "[BOT] - Moving diagram to ./static/img..." -a
       - name: Push changes
         uses: ad-m/github-push-action@master
