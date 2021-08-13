@@ -1,0 +1,1 @@
+(self.webpackChunktdc_docusaurus=self.webpackChunktdc_docusaurus||[]).push([[84],{943:function(u){"use strict";u.exports=JSON.parse('{"allTagsPath":"/tdc-docusaurus/blog/tags","slug":"docusaurus","name":"docusaurus","count":3,"permalink":"/tdc-docusaurus/blog/tags/docusaurus"}')}}]);
