@@ -6,7 +6,7 @@ module.exports = {
   title: 'TDC - Transformation',
   tagline: 'Presenting you the latest in docs!',
   url: 'https://tdc-docusaurus.github.io',
-  baseUrl: '/',
+  baseUrl: '/tdc-docusaurus/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
