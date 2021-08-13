@@ -14,3 +14,8 @@ jobs:
         uses: githubocto/repo-visualizer@main
       - name: Move diagram
         run: mv diagram.svg ./static/img
+      - name: copy file
+        uses: canastro/copy-file-action@master
+          with:
+            source: "diagram.svg"
+            target: "./static/img"
