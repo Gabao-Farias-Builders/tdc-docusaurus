@@ -12,3 +12,8 @@ jobs:
         uses: actions/checkout@master
       - name: Update diagram
         uses: githubocto/repo-visualizer@main
+  copy_to_docs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Copy svg
+        run: mv diagram.svg ./static/img
