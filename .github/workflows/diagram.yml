@@ -12,5 +12,5 @@ jobs:
         uses: actions/checkout@master
       - name: Update diagram
         uses: githubocto/repo-visualizer@main
-          with:
-            output_file: "static/img/repo-diagram.svg"
+        with:
+          output_file: "static/img/repo-diagram.svg"
